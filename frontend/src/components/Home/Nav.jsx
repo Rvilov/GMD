@@ -1,5 +1,7 @@
 import "../../styles/Home/nav.css";
 
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <header className="header">
@@ -19,7 +21,7 @@ const Nav = () => {
 
         <ul className="inicio-sistema">
           <li>
-            <a href="">SISTEMA INVENTARIO</a>
+            <Link to="/login">Sistema Inventario</Link>
           </li>
         </ul>
       </nav>
